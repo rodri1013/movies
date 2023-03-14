@@ -1,0 +1,23 @@
+.MovieCard {
+    list-style: none;
+    font-size: 1.5 rem;
+    text-align: center;
+}
+
+.MovieCard:hover {
+    opacity: 0.8;
+}
+
+/* list-style: none; elimina los puntitos de las <li>*/
+
+.movieImage {
+    border-radius: 10px;
+    background-color: azure;
+}
+
+@media (max-width: 560px) {
+    .MoviesGrid {
+        width: 90%;
+        height: auto;/* así no se deforma*/
+    }
+} 

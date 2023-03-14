@@ -1,0 +1,18 @@
+.MoviesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+}
+/* gap separa entre imagenes*/
+/* display grid crea la grilla*/
+
+@media (max-width: 560px) {
+    .MoviesGrid {
+        grid-template-columns: 100%;
+    }
+} 
+
+/* @media para hacerlo responsive a los celu, cuando llegue al ancho de 560 entonces
+se muestra en un ancho del 100%*/

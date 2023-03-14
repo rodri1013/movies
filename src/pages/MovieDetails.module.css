@@ -1,0 +1,26 @@
+.detailsContainer {
+    display: flex;
+    justify-content: center;/* alinea todo en el eje X*/
+    flex-wrap: wrap;/* al estar en display flex on el flex wrap: wrap se hace responsive*/
+
+}
+/*para este className el display flex coloca la imagen al lado del texto*/
+
+.col {
+    max-width: 400px;
+    margin: 15px;
+    height: auto;
+    height: 80%;
+}
+
+.movieImage{
+    border-radius: 15px;
+}
+
+.movieDetails {
+    font-size: 1.5rem;
+}
+
+.firstItem {
+    margin-top: 0;
+}
